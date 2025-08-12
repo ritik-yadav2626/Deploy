@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fa{
+    text-decoration: none;
+    margin-right: 20px;
+    
+    transition: text-decoration 0.7s;
+    color: white;
+}
+.fa:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.anchor{
+    display: inline-block;
+    margin-left: 20px;
+}
+.call{
+    display: inline-block;
+    color: white;
+}
+span{
+   text-decoration: underline;
+   text-underline-offset: 6px;
+    
+}
+.button-sign-in{
+    background-color: lightskyblue;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-in{
+    display: inline-block;
+    margin-left: 15px;
+}
+.call-sign-in{
+    display: inline-block;
+    margin-left: 200px;
+}
+.loc-image{
+    width: 18px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.image{
+    display: inline-block;
+}
+.place{
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+}
+.place-location{
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 131);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+.search-bar{
+    padding-top: 60px;
+    display: inline-block;
+}
+.search-input{
+    background-image: url(channel/10-103536_simple-grey-search-icon-transparent-background-search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px center  ;
+    background-size: 15px;
+    padding-left: 40px;
+    margin-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: small;
+    width: 300px;
+    border: groove;
+    background-color: whitesmoke;
+}
+.search2{
+    display: inline-block;
+    padding-top: 60px;
+    margin-left: 3px;
+}
+.button2{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.info{
+   padding-top: 150px;
+    margin-left: 200px;
+}
+.infoo{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 400px;
+}
+.name{
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 200px;
+}
+.button3{
+    background-color: lightskyblue;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+h2{
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.para{
+    height: 500px;
+    margin-top: 10px;
+    background-image: url(channel/pexels-photo-186077.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.info2{
+    font-size: small;
+    margin-top: 5px;
+    width: 300px;
+    margin-left: 18px;
+   
+}
+.template{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.heading2{
+    margin-left: 0px;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    width: 250px;
+    height: 320px;
+    border: groove;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-width: 1.5px;
+   transition: transform 0.3s ease-in-out;
+   
+}
+.box:hover{
+  transform: scale(1.1);
+
+}
+.appartment-image{
+    width: 250px;
+    height: 150px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+h5{
+    padding-top: 10px;
+    margin-left: 8px;
+}
+.price{
+    font-weight: bold;
+    color: lightskyblue;
+    text-decoration: none;
+    margin-left: 8px;
+    
+    padding-bottom: 10px;
+}
+.para-box{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 25px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    
+}
+.container3{
+    height: 150px;
+    background-color:  rgb(46, 46, 131);
+    margin-top: 50px;
+}
+.linkedin-logo{
+    width: 30px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.linkedin-logo:hover{
+    transform: scale(1.1);
+}
+.github-logo{
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.github-logo:hover{
+    transform: scale(1.1);
+}
+.facebook-logo{
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.facebook-logo:hover{
+    transform: scale(1.1);
+}
+.insta-logo{
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.insta-logo:hover{
+    transform: scale(1.1);
+}
+.logo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.view{
+    background-color: blue;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+}
